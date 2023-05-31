@@ -1,0 +1,20 @@
+.input-animation {
+    border: 2px solid transparent;
+    animation: input-border-animation 2s infinite;
+  }
+  
+  @keyframes input-border-animation {
+    0% {
+      border-color: transparent;
+      box-shadow: none;
+    }
+    50% {
+      border-color: #61dafb;
+      box-shadow: 0 0 6px 3px #61dafb;
+    }
+    100% {
+      border-color: transparent;
+      box-shadow: none;
+    }
+  }
+  
